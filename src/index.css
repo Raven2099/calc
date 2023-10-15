@@ -1,0 +1,65 @@
+@import url(https://fonts.google.com/share?selection.family=Poppins:wght@500);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.screen {
+  height: 5rem;
+  margin-bottom: 4rem;
+}
+.screen2{
+  height: 2rem;
+  margin-bottom: 2rem;
+}
+
+.wrapper {
+  background: #02273c;
+  width: 20rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border-radius: 30px;
+  box-shadow: 0px 9px 15px -3px rgba(0,0,0,0.1);
+}
+
+.buttonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: .5rem;
+}
+
+.button {
+  background: #02273c;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #fffbfb;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.button:hover {
+  background-color: #5270ad;
+}
+
+
+
+.opt {
+  
+  color: #729ff9;
+}
